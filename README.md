@@ -10,6 +10,7 @@ Welcome to the React Native app! This is a simple project built with React Nativ
 - [Running the App](#running-the-app)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
+- [Outout](#outout)
 - [License](#license)
 
 ## Features 🚀
@@ -106,6 +107,9 @@ We welcome contributions to improve this project! If you would like to contribut
 4. Commit your changes (`git commit -am 'Add feature'`).
 5. Push to the branch (`git push origin feature-name`).
 6. Create a new Pull Request.
+
+## Outputs
+![ss](https://github.com/user-attachments/assets/3fbbfb20-f6a3-4072-bc4a-1173c694003a)
 
 ## License 📄
 
