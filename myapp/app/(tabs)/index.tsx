@@ -1,31 +1,33 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Text, View,Image,StyleSheet } from "react-native";
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-
-export default function HomeScreen() {
+export default function Index() {
   return (
-    
+    <View>
+      <Image source={require("../../assets/images/react-logo.png")} style={styles.logo}/>
+      <Text style={styles.txt}>Hello World!</Text>
+      <Text style={styles.subtxt}>My first ReactNative app</Text>
+    </View>
   );
 }
-
-const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+const styles= StyleSheet.create({
+  logo:{
+    width:120,
+    height:120,
+    borderRadius: 10,
+    borderWidth: 2,
+    borderColor: 'lightblue',
+    marginBottom: 20,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+  txt:{
+    fontSize:32,
+    color:"#4B0082",
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 10,
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+  subtxt:{
+    fontSize: 18, 
+    color: '#8B4513',
+    textAlign: 'center',
   },
-});
+})
